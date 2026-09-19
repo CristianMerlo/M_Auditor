@@ -1,0 +1,8 @@
+# Arnés de verificación: se instala a mano, no va al repo.
+.verificacion/node_modules/
+.verificacion/package.json
+.verificacion/package-lock.json
+.verificacion/capturas/
+
+# Capturas de las corridas de verificación.
+.kiro/artifacts/

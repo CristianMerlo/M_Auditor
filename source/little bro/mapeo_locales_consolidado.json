@@ -1,0 +1,3556 @@
+{
+  "ramas": [
+    {
+      "rama": "Franquicias 2026 - Siglas/Razon Social/CUIT",
+      "locales": [
+        {
+          "nombre": "San Justo",
+          "sigla": "FSJU",
+          "id": "002"
+        },
+        {
+          "nombre": "Laferrere 2",
+          "sigla": "FLF2",
+          "id": "003"
+        },
+        {
+          "nombre": "Ramos",
+          "sigla": "FMRAM",
+          "id": "004"
+        },
+        {
+          "nombre": "Lomas Auto",
+          "sigla": "FLOZ",
+          "id": "046"
+        },
+        {
+          "nombre": "Lomas",
+          "sigla": "FMLCA",
+          "id": "047"
+        },
+        {
+          "nombre": "Lanús 2",
+          "sigla": "FLA2",
+          "id": "062"
+        },
+        {
+          "nombre": "Montegrande",
+          "sigla": "FMGD",
+          "id": "007"
+        },
+        {
+          "nombre": "Ezeiza",
+          "sigla": "FEZE",
+          "id": "005"
+        },
+        {
+          "nombre": "Canning",
+          "sigla": "FMCAN",
+          "id": "006"
+        },
+        {
+          "nombre": "San Juan",
+          "sigla": "FSJN",
+          "id": "023"
+        },
+        {
+          "nombre": "San Juan 2",
+          "sigla": "FSJ2",
+          "id": "024"
+        },
+        {
+          "nombre": "La Pampa",
+          "sigla": "FLPA",
+          "id": "064"
+        },
+        {
+          "nombre": "Gallegos",
+          "sigla": "FMP1",
+          "id": "075"
+        },
+        {
+          "nombre": "Aldrey",
+          "sigla": "FMP2",
+          "id": "076"
+        },
+        {
+          "nombre": "La Perla",
+          "sigla": "FMD3",
+          "id": "077"
+        },
+        {
+          "nombre": "Peatonal",
+          "sigla": "FMDQ4",
+          "id": "078"
+        },
+        {
+          "nombre": "Olavarría",
+          "sigla": "FOLAV",
+          "id": "079"
+        },
+        {
+          "nombre": "Tandil",
+          "sigla": "FCTA",
+          "id": "080"
+        },
+        {
+          "nombre": "Tandil 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "La Plata 2",
+          "sigla": "FLP2",
+          "id": "034"
+        },
+        {
+          "nombre": "La Plata 3",
+          "sigla": "FLP3",
+          "id": "035"
+        },
+        {
+          "nombre": "La Plata 4",
+          "sigla": "FLP4",
+          "id": "036"
+        },
+        {
+          "nombre": "City Bell",
+          "sigla": "FCYB",
+          "id": "037"
+        },
+        {
+          "nombre": "República",
+          "sigla": "FRDN",
+          "id": "038"
+        },
+        {
+          "nombre": "Gonnet",
+          "sigla": "FGON",
+          "id": "043"
+        },
+        {
+          "nombre": "Rotonda",
+          "sigla": "FMRG",
+          "id": "045"
+        },
+        {
+          "nombre": "Berazategui",
+          "sigla": "FBER",
+          "id": "044"
+        },
+        {
+          "nombre": "Wilde",
+          "sigla": "FMWVP",
+          "id": "048"
+        },
+        {
+          "nombre": "Carre Quilmes",
+          "sigla": "FCQU",
+          "id": "063"
+        },
+        {
+          "nombre": "Ushuaia",
+          "sigla": "FUSH",
+          "id": "050"
+        },
+        {
+          "nombre": "Río Grande",
+          "sigla": "FRGD",
+          "id": "051"
+        },
+        {
+          "nombre": "Río Gallegos",
+          "sigla": "FRGA",
+          "id": "073"
+        },
+        {
+          "nombre": "Portal Salta",
+          "sigla": "FPSA",
+          "id": "052"
+        },
+        {
+          "nombre": "Salta Libertad",
+          "sigla": "FSLI",
+          "id": "053"
+        },
+        {
+          "nombre": "Salta Peatonal",
+          "sigla": "FSVP",
+          "id": "054"
+        },
+        {
+          "nombre": "Salta Auto",
+          "sigla": "FSAA",
+          "id": "055"
+        },
+        {
+          "nombre": "Salta NOA",
+          "sigla": "MSN",
+          "id": "056"
+        },
+        {
+          "nombre": "Jujuy",
+          "sigla": "FJUJ",
+          "id": "057"
+        },
+        {
+          "nombre": "Salta Orán",
+          "sigla": "FSAO",
+          "id": "058"
+        },
+        {
+          "nombre": "Salta Auto 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Jujuy 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Constitución",
+          "sigla": "FMCNT",
+          "id": "060"
+        },
+        {
+          "nombre": "Pompeya",
+          "sigla": "FMPYA",
+          "id": "074"
+        },
+        {
+          "nombre": "Terrada",
+          "sigla": "-",
+          "id": "070"
+        },
+        {
+          "nombre": "Flores",
+          "sigla": "FFLO",
+          "id": "066"
+        },
+        {
+          "nombre": "Primera Junta",
+          "sigla": "FMPRI",
+          "id": "067"
+        },
+        {
+          "nombre": "Once",
+          "sigla": "FMONC",
+          "id": "069"
+        },
+        {
+          "nombre": "Cabildo",
+          "sigla": "FCAB",
+          "id": "010"
+        },
+        {
+          "nombre": "Cabildo 2",
+          "sigla": "FMCYM",
+          "id": "011"
+        },
+        {
+          "nombre": "Spinetto",
+          "sigla": "FSPI",
+          "id": "061"
+        },
+        {
+          "nombre": "Bolívar",
+          "sigla": "FBOL",
+          "id": "071"
+        },
+        {
+          "nombre": "Junín",
+          "sigla": "FMJUN",
+          "id": "072"
+        },
+        {
+          "nombre": "Formosa",
+          "sigla": "FMFOR",
+          "id": "065"
+        },
+        {
+          "nombre": "Tucumán 2",
+          "sigla": "FTU2",
+          "id": "025"
+        },
+        {
+          "nombre": "Tucumán 3",
+          "sigla": "FTU3",
+          "id": "026"
+        },
+        {
+          "nombre": "Tucumán 4",
+          "sigla": "FTU4",
+          "id": "027"
+        },
+        {
+          "nombre": "Tucumán 5",
+          "sigla": "FTC5",
+          "id": "028"
+        },
+        {
+          "nombre": "Tucumán 6",
+          "sigla": "FTC6",
+          "id": "029"
+        },
+        {
+          "nombre": "Tucumán 7",
+          "sigla": "FMTU7",
+          "id": "030"
+        },
+        {
+          "nombre": "Tucumán 8",
+          "sigla": "FTC8",
+          "id": "031"
+        },
+        {
+          "nombre": "Tucumán 9",
+          "sigla": "FMTU9",
+          "id": "033"
+        },
+        {
+          "nombre": "Portal Tucumán",
+          "sigla": "MPT",
+          "id": "032"
+        },
+        {
+          "nombre": "S. del Estero",
+          "sigla": "FSDE",
+          "id": "039"
+        },
+        {
+          "nombre": "Luján",
+          "sigla": "FLUJ",
+          "id": "020"
+        },
+        {
+          "nombre": "F. Álvarez",
+          "sigla": "FFRA",
+          "id": "018"
+        },
+        {
+          "nombre": "Merlo",
+          "sigla": "FMER",
+          "id": "086"
+        },
+        {
+          "nombre": "Morón",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Liniers",
+          "sigla": "FLIN",
+          "id": "068"
+        },
+        {
+          "nombre": "San Miguel 3",
+          "sigla": "FSM2",
+          "id": "084"
+        },
+        {
+          "nombre": "San Miguel A.",
+          "sigla": "FMSMA",
+          "id": "085"
+        },
+        {
+          "nombre": "San Fernando",
+          "sigla": "FSAF",
+          "id": "081"
+        },
+        {
+          "nombre": "Moreno",
+          "sigla": "FMORE",
+          "id": "019"
+        },
+        {
+          "nombre": "Corrientes",
+          "sigla": "FCOR",
+          "id": "087"
+        },
+        {
+          "nombre": "Resistencia",
+          "sigla": "FMRES",
+          "id": "088"
+        },
+        {
+          "nombre": "San Luis",
+          "sigla": "FSLS",
+          "id": "089"
+        },
+        {
+          "nombre": "Villa del Parque",
+          "sigla": "FVDP",
+          "id": "001"
+        },
+        {
+          "nombre": "Caseros",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "San Martín 2",
+          "sigla": "FMSVP",
+          "id": "021"
+        },
+        {
+          "nombre": "San Martín Auto",
+          "sigla": "FSMA",
+          "id": "022"
+        },
+        {
+          "nombre": "San Isidro",
+          "sigla": "FSIS",
+          "id": "015"
+        },
+        {
+          "nombre": "Grand Bourg",
+          "sigla": "FGBG",
+          "id": "082"
+        },
+        {
+          "nombre": "José C. Paz",
+          "sigla": "FJCP",
+          "id": "083"
+        },
+        {
+          "nombre": "Zárate",
+          "sigla": "FZAR",
+          "id": "008"
+        },
+        {
+          "nombre": "Palmas Pilar",
+          "sigla": "FPPI",
+          "id": "014"
+        },
+        {
+          "nombre": "La Rioja",
+          "sigla": "FMRVP",
+          "id": "016"
+        },
+        {
+          "nombre": "Catamarca",
+          "sigla": "FCAT",
+          "id": "017"
+        },
+        {
+          "nombre": "Gualeguaychú",
+          "sigla": "FMGUA",
+          "id": "009"
+        },
+        {
+          "nombre": "Parque Chac",
+          "sigla": "FPCH",
+          "id": "059"
+        },
+        {
+          "nombre": "Boedo",
+          "sigla": "FBOE",
+          "id": "090"
+        },
+        {
+          "nombre": "San Telmo",
+          "sigla": "FSTM",
+          "id": "091"
+        },
+        {
+          "nombre": "Av. de Mayo",
+          "sigla": "FAVM",
+          "id": "092"
+        },
+        {
+          "nombre": "Av. de Mayo 2",
+          "sigla": "FAVM2",
+          "id": "093"
+        },
+        {
+          "nombre": "9 de Julio",
+          "sigla": "F9DJ",
+          "id": "094"
+        },
+        {
+          "nombre": "Callao",
+          "sigla": "FMCYC",
+          "id": "095"
+        },
+        {
+          "nombre": "Av. Córdoba",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Urquiza",
+          "sigla": "FURQ",
+          "id": "013"
+        },
+        {
+          "nombre": "Ribera Santa Fe",
+          "sigla": "FRSF",
+          "id": "097"
+        },
+        {
+          "nombre": "Walmart Sta. Fe",
+          "sigla": "FWSF",
+          "id": "098"
+        },
+        {
+          "nombre": "Santa Fe P.",
+          "sigla": "FMSFV",
+          "id": "099"
+        },
+        {
+          "nombre": "Rafaela",
+          "sigla": "FRAF",
+          "id": "096"
+        },
+        {
+          "nombre": "Portal Rosario",
+          "sigla": "FPRO",
+          "id": "100"
+        },
+        {
+          "nombre": "Pellegrini",
+          "sigla": "FPEL",
+          "id": "101"
+        },
+        {
+          "nombre": "Rosario Sur",
+          "sigla": "FRSM",
+          "id": "102"
+        },
+        {
+          "nombre": "Oroño",
+          "sigla": "FROA",
+          "id": "103"
+        },
+        {
+          "nombre": "San Nicolás",
+          "sigla": "FMSNI",
+          "id": "104"
+        },
+        {
+          "nombre": "Puma",
+          "sigla": "FMPUM",
+          "id": "105"
+        },
+        {
+          "nombre": "Funes",
+          "sigla": "FMPUM",
+          "id": "106"
+        },
+        {
+          "nombre": "Alto Rosario",
+          "sigla": "MAR",
+          "id": "107"
+        },
+        {
+          "nombre": "City Center",
+          "sigla": "MCR",
+          "id": "108"
+        },
+        {
+          "nombre": "Güemes",
+          "sigla": "FGUE",
+          "id": "012"
+        },
+        {
+          "nombre": "Mendoza Centro",
+          "sigla": "FMMSM",
+          "id": "040"
+        },
+        {
+          "nombre": "Mendoza Colón",
+          "sigla": "FMMCO",
+          "id": "041"
+        },
+        {
+          "nombre": "San Rafael",
+          "sigla": "FSRM",
+          "id": "042"
+        },
+        {
+          "nombre": "Bariloche",
+          "sigla": "FBA1",
+          "id": "049"
+        },
+        {
+          "nombre": "Güemes",
+          "sigla": "FGUE",
+          "id": "012"
+        },
+        {
+          "nombre": "Mendoza Centro",
+          "sigla": "FMMSM",
+          "id": "040"
+        },
+        {
+          "nombre": "Mendoza Colón",
+          "sigla": "FMMCO",
+          "id": "041"
+        },
+        {
+          "nombre": "San Rafael",
+          "sigla": "FSRM",
+          "id": "042"
+        },
+        {
+          "nombre": "Bariloche",
+          "sigla": "FBA1",
+          "id": "049"
+        }
+      ],
+      "total": 119
+    },
+    {
+      "rama": "Franquicias 2026 - Regional",
+      "locales": [
+        {
+          "nombre": "JUJUY 2 (Tuc)",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PORTAL TUCUMAN",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "S DEL ESTERO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA AUTO 2 (Tuc)",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 3",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 4",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 5",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 6",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 7",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 8",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TUCUMÁN 9",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "BOLIVAR",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CABILDO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CABILDO 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CONSTITUCION",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "FLORES",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "FORMOSA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "JUNIN",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "ONCE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "POMPEYA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PRIMERA JUNTA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SPINETTO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TERRADA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CORRIENTES",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "F. ALVAREZ",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LINIERS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LUJAN",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "MERLO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "MORENO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "MORÓN",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "RESISTENCIA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN FERNANDO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN LUIS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN MIGUEL 3",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN MIGUEL A.",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "BERAZATEGUI",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CARRE QUILMES",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CITY BELL",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "GONNET",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LA PLATA 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LA PLATA 3",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LA PLATA 4",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "REPUBLICA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "RIO GALLEGOS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "RIO GRANDE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "ROTONDA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "USHUAIA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "WILDE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "JUJUY",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "JUJUY 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PORTAL SALTA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA AUTO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA AUTO 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA LIBERTAD",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA NOA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA ORAN",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SALTA PEATONAL",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "ALDREY",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "GALLEGOS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LA PERLA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "OLAVARRIA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PEATONAL",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TANDIL",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "TANDIL 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CANNING",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "EZEIZA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LA PAMPA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LAFERRERE 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LANUS 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LOMAS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LOMAS AUTO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "MONTEGRANDE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "RAMOS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN JUAN",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN JUAN 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN JUSTO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "9 DE JULIO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "AV CORDOBA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "AV DE MAYO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "AV DE MAYO 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "BOEDO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CALLAO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PARQUE CHAC",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "RAFAELA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "RIBERA SANTA FE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN TELMO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SANTA FE P.",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "URQUIZA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "WALMART STA FE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "ALTO ROSARIO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CITY CENTER",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "FUNES",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "OROÑO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PELLEGRINI",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PORTAL ROSARIO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PUMA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "ROSARIO SUR",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN NICOLAS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CASEROS",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "CATAMARCA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "GRAND BOURG",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "GUALEGUAYCHU",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "JOSE C PAZ",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "LA RIOJA",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "PALMAS PILAR",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN ISIDRO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN MARTIN 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "SAN MARTIN AUTO",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "VILLA DEL PARQUE",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "ZARATE",
+          "sigla": null,
+          "id": null
+        }
+      ],
+      "total": 111
+    },
+    {
+      "rama": "La Sabana - Matriz de Locales V4",
+      "locales": [
+        {
+          "nombre": "San Justo",
+          "sigla": "FSJU",
+          "id": "002"
+        },
+        {
+          "nombre": "Laferrere 2",
+          "sigla": "FLF2",
+          "id": "003"
+        },
+        {
+          "nombre": "Ramos",
+          "sigla": "FMRAM",
+          "id": "004"
+        },
+        {
+          "nombre": "Lomas Auto",
+          "sigla": "FLOZ",
+          "id": "046"
+        },
+        {
+          "nombre": "Lomas",
+          "sigla": "FMLCA",
+          "id": "047"
+        },
+        {
+          "nombre": "Lanús 2",
+          "sigla": "FLA2",
+          "id": "062"
+        },
+        {
+          "nombre": "Montegrande",
+          "sigla": "FMGD",
+          "id": "007"
+        },
+        {
+          "nombre": "Ezeiza",
+          "sigla": "FEZE",
+          "id": "005"
+        },
+        {
+          "nombre": "Canning",
+          "sigla": "FMCAN",
+          "id": "006"
+        },
+        {
+          "nombre": "San Juan",
+          "sigla": "FSJN",
+          "id": "023"
+        },
+        {
+          "nombre": "San Juan 2",
+          "sigla": "FSJ2",
+          "id": "024"
+        },
+        {
+          "nombre": "La Pampa",
+          "sigla": "FLPA",
+          "id": "064"
+        },
+        {
+          "nombre": "Gallegos",
+          "sigla": "FMP1",
+          "id": "075"
+        },
+        {
+          "nombre": "Aldrey",
+          "sigla": "FMP2",
+          "id": "076"
+        },
+        {
+          "nombre": "La Perla",
+          "sigla": "FMD3",
+          "id": "077"
+        },
+        {
+          "nombre": "San Martin 2",
+          "sigla": "FMDQ4",
+          "id": "078"
+        },
+        {
+          "nombre": "Olavarría",
+          "sigla": "FOLAV",
+          "id": "079"
+        },
+        {
+          "nombre": "Tandil",
+          "sigla": "FCTA",
+          "id": "080"
+        },
+        {
+          "nombre": "Tandil 2",
+          "sigla": "TRD2",
+          "id": null
+        },
+        {
+          "nombre": "La Plata 2",
+          "sigla": "FLP2",
+          "id": "034"
+        },
+        {
+          "nombre": "La Plata 3",
+          "sigla": "FLP3",
+          "id": "035"
+        },
+        {
+          "nombre": "La Plata 4",
+          "sigla": "FLP4",
+          "id": "036"
+        },
+        {
+          "nombre": "City Bell",
+          "sigla": "FCYB",
+          "id": "037"
+        },
+        {
+          "nombre": "República",
+          "sigla": "FRDN",
+          "id": "038"
+        },
+        {
+          "nombre": "Gonnet",
+          "sigla": "FGON",
+          "id": "043"
+        },
+        {
+          "nombre": "Rotonda",
+          "sigla": "FMRG",
+          "id": "045"
+        },
+        {
+          "nombre": "Berazategui",
+          "sigla": "FBER",
+          "id": "044"
+        },
+        {
+          "nombre": "Wilde",
+          "sigla": "FMWVP",
+          "id": "048"
+        },
+        {
+          "nombre": "Carre Quilmes",
+          "sigla": "FCQU",
+          "id": "063"
+        },
+        {
+          "nombre": "Ushuaia",
+          "sigla": "FUSH",
+          "id": "050"
+        },
+        {
+          "nombre": "Río Grande",
+          "sigla": "FRGD",
+          "id": "051"
+        },
+        {
+          "nombre": "Río Gallegos",
+          "sigla": "FRGA",
+          "id": "073"
+        },
+        {
+          "nombre": "Portal Salta",
+          "sigla": "FPSA",
+          "id": "052"
+        },
+        {
+          "nombre": "Salta Libertad",
+          "sigla": "FSLI",
+          "id": "053"
+        },
+        {
+          "nombre": "Salta Peatonal",
+          "sigla": "FSVP",
+          "id": "054"
+        },
+        {
+          "nombre": "Salta Auto",
+          "sigla": "FSAA",
+          "id": "055"
+        },
+        {
+          "nombre": "Jujuy",
+          "sigla": "FJUJ",
+          "id": "057"
+        },
+        {
+          "nombre": "Salta Orán",
+          "sigla": "FSAO",
+          "id": "058"
+        },
+        {
+          "nombre": "Salta Auto 2",
+          "sigla": "FMSAA",
+          "id": null
+        },
+        {
+          "nombre": "Jujuy 2",
+          "sigla": "FJUJ",
+          "id": null
+        },
+        {
+          "nombre": "Constitución",
+          "sigla": "FMCNT",
+          "id": "060"
+        },
+        {
+          "nombre": "Pompeya",
+          "sigla": "FMPYA",
+          "id": "074"
+        },
+        {
+          "nombre": "Terrada",
+          "sigla": "FMTER",
+          "id": "070"
+        },
+        {
+          "nombre": "Flores",
+          "sigla": "FFLO",
+          "id": "066"
+        },
+        {
+          "nombre": "Primera Junta",
+          "sigla": "FMPRI",
+          "id": "067"
+        },
+        {
+          "nombre": "Once",
+          "sigla": "FMONC",
+          "id": "069"
+        },
+        {
+          "nombre": "Cabildo",
+          "sigla": "FCAB",
+          "id": "010"
+        },
+        {
+          "nombre": "Cabildo 2",
+          "sigla": "FMCYM",
+          "id": "011"
+        },
+        {
+          "nombre": "Spinetto",
+          "sigla": "FSPI",
+          "id": "061"
+        },
+        {
+          "nombre": "Bolívar",
+          "sigla": "FBOL",
+          "id": "071"
+        },
+        {
+          "nombre": "Junín",
+          "sigla": "FMJUN",
+          "id": "072"
+        },
+        {
+          "nombre": "Formosa",
+          "sigla": "FMFOR",
+          "id": "065"
+        },
+        {
+          "nombre": "Tucumán 2",
+          "sigla": "FTU2",
+          "id": "025"
+        },
+        {
+          "nombre": "Tucumán 3",
+          "sigla": "FTU3",
+          "id": "026"
+        },
+        {
+          "nombre": "Tucumán 4",
+          "sigla": "FTU4",
+          "id": "027"
+        },
+        {
+          "nombre": "Tucumán 5",
+          "sigla": "FTC5",
+          "id": "028"
+        },
+        {
+          "nombre": "Tucumán 6",
+          "sigla": "FTC6",
+          "id": "029"
+        },
+        {
+          "nombre": "Tucumán 7",
+          "sigla": "FMTU7",
+          "id": "030"
+        },
+        {
+          "nombre": "Tucumán 8",
+          "sigla": "FTC8",
+          "id": "031"
+        },
+        {
+          "nombre": "Tucumán 9",
+          "sigla": "FMTU9",
+          "id": "033"
+        },
+        {
+          "nombre": "Portal Tucumán",
+          "sigla": "MPT",
+          "id": "032"
+        },
+        {
+          "nombre": "S. del Estero",
+          "sigla": "FSDE",
+          "id": "039"
+        },
+        {
+          "nombre": "Luján",
+          "sigla": "FLUJ",
+          "id": "020"
+        },
+        {
+          "nombre": "F. Álvarez",
+          "sigla": "FFRA",
+          "id": "018"
+        },
+        {
+          "nombre": "Merlo",
+          "sigla": "FMER",
+          "id": "086"
+        },
+        {
+          "nombre": "Morón",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Liniers",
+          "sigla": "FLIN",
+          "id": "068"
+        },
+        {
+          "nombre": "San Miguel 3",
+          "sigla": "FSM2",
+          "id": "084"
+        },
+        {
+          "nombre": "San Miguel A.",
+          "sigla": "FMSMA",
+          "id": "085"
+        },
+        {
+          "nombre": "San Fernando",
+          "sigla": "FSAF",
+          "id": "081"
+        },
+        {
+          "nombre": "Moreno",
+          "sigla": "FMORE",
+          "id": "019"
+        },
+        {
+          "nombre": "Corrientes",
+          "sigla": "FCOR",
+          "id": "087"
+        },
+        {
+          "nombre": "Resistencia",
+          "sigla": "FMRES",
+          "id": "088"
+        },
+        {
+          "nombre": "San Luis",
+          "sigla": "FSLS",
+          "id": "089"
+        },
+        {
+          "nombre": "Villa del Parque",
+          "sigla": "FVDP",
+          "id": "001"
+        },
+        {
+          "nombre": "Caseros",
+          "sigla": "FMMCB",
+          "id": null
+        },
+        {
+          "nombre": "San Martín 2",
+          "sigla": "FMSVP",
+          "id": "021"
+        },
+        {
+          "nombre": "San Martín Auto",
+          "sigla": "FSMA",
+          "id": "022"
+        },
+        {
+          "nombre": "San Isidro",
+          "sigla": "FSIS",
+          "id": "015"
+        },
+        {
+          "nombre": "Grand Bourg",
+          "sigla": "FGBG",
+          "id": "082"
+        },
+        {
+          "nombre": "José C. Paz",
+          "sigla": "FJCP",
+          "id": "083"
+        },
+        {
+          "nombre": "Zárate",
+          "sigla": "FZAR",
+          "id": "008"
+        },
+        {
+          "nombre": "Palmas Pilar",
+          "sigla": "FPPI",
+          "id": "014"
+        },
+        {
+          "nombre": "La Rioja",
+          "sigla": "FMRVP",
+          "id": "016"
+        },
+        {
+          "nombre": "Catamarca",
+          "sigla": "FCAT",
+          "id": "017"
+        },
+        {
+          "nombre": "Gualeguaychú",
+          "sigla": "FMGUA",
+          "id": "009"
+        },
+        {
+          "nombre": "Parque Chac",
+          "sigla": "FPCH",
+          "id": "059"
+        },
+        {
+          "nombre": "Boedo",
+          "sigla": "FBOE",
+          "id": "090"
+        },
+        {
+          "nombre": "San Telmo",
+          "sigla": "FSTM",
+          "id": "091"
+        },
+        {
+          "nombre": "Av. de Mayo",
+          "sigla": "FAVM",
+          "id": "092"
+        },
+        {
+          "nombre": "Av. de Mayo 2",
+          "sigla": "FAVM2",
+          "id": "093"
+        },
+        {
+          "nombre": "9 de Julio",
+          "sigla": "F9DJ",
+          "id": "094"
+        },
+        {
+          "nombre": "Callao",
+          "sigla": "FMCYC",
+          "id": "095"
+        },
+        {
+          "nombre": "Av. Córdoba",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Urquiza",
+          "sigla": "FURQ",
+          "id": "013"
+        },
+        {
+          "nombre": "Ribera Santa Fe",
+          "sigla": "FRSF",
+          "id": "097"
+        },
+        {
+          "nombre": "Walmart Sta. Fe",
+          "sigla": "FWSF",
+          "id": "098"
+        },
+        {
+          "nombre": "Santa Fe P.",
+          "sigla": "FMSFV",
+          "id": "099"
+        },
+        {
+          "nombre": "Rafaela",
+          "sigla": "FRAF",
+          "id": "096"
+        },
+        {
+          "nombre": "Portal Rosario",
+          "sigla": "FPRO",
+          "id": "100"
+        },
+        {
+          "nombre": "Pellegrini",
+          "sigla": "FPEL",
+          "id": "101"
+        },
+        {
+          "nombre": "Rosario Sur",
+          "sigla": "FRSM",
+          "id": "102"
+        },
+        {
+          "nombre": "Oroño",
+          "sigla": "FROA",
+          "id": "103"
+        },
+        {
+          "nombre": "San Nicolás",
+          "sigla": "FMSNI",
+          "id": "104"
+        },
+        {
+          "nombre": "Puma",
+          "sigla": "FMPUM",
+          "id": "105"
+        },
+        {
+          "nombre": "Funes",
+          "sigla": "FMFUN",
+          "id": "106"
+        },
+        {
+          "nombre": "Alto Rosario",
+          "sigla": "MAR",
+          "id": "107"
+        },
+        {
+          "nombre": "City Center",
+          "sigla": "MCR",
+          "id": "108"
+        },
+        {
+          "nombre": "Güemes",
+          "sigla": "FGUE",
+          "id": "012"
+        },
+        {
+          "nombre": "Mendoza Centro",
+          "sigla": "FMMSM",
+          "id": "040"
+        },
+        {
+          "nombre": "Mendoza Colón",
+          "sigla": "FMMCO",
+          "id": "041"
+        },
+        {
+          "nombre": "San Rafael",
+          "sigla": "FSRM",
+          "id": "042"
+        },
+        {
+          "nombre": "Bariloche",
+          "sigla": "FBA1",
+          "id": "049"
+        },
+        {
+          "nombre": "Tandil 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Salta Auto 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Jujuy 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Av. Córdoba",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "City Center",
+          "sigla": "MCR",
+          "id": null
+        },
+        {
+          "nombre": "Tandil 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Salta Auto 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Jujuy 2",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Morón",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Caseros",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Av. Córdoba",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Funes",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Güemes",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Mendoza Centro",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "Mendoza Colón",
+          "sigla": null,
+          "id": null
+        },
+        {
+          "nombre": "San Rafael",
+          "sigla": null,
+          "id": null
+        }
+      ],
+      "total": 129
+    },
+    {
+      "rama": "Propios - AGOSTO 2026",
+      "locales": [
+        {
+          "nombre": "WALMART GUAYMALLEN",
+          "sigla": "MWG",
+          "id": null
+        },
+        {
+          "nombre": "BARRACAS MALL",
+          "sigla": "MBM",
+          "id": null
+        },
+        {
+          "nombre": "LUJAN DE CUYO",
+          "sigla": "MML",
+          "id": null
+        },
+        {
+          "nombre": "MENDOZA ",
+          "sigla": "MMZ",
+          "id": null
+        },
+        {
+          "nombre": "ARENA MAIPU",
+          "sigla": "MAM ",
+          "id": null
+        },
+        {
+          "nombre": "NEUQUEN  3 ( LA ANONIMA )",
+          "sigla": "MLA",
+          "id": null
+        },
+        {
+          "nombre": "NEUQUEN 2  ALTO COMAHUE ",
+          "sigla": "MNA",
+          "id": null
+        },
+        {
+          "nombre": "NEUQUEN  1",
+          "sigla": "MNQ",
+          "id": null
+        },
+        {
+          "nombre": "NEUQUEN  4  ( WALMART )",
+          "sigla": "MWN",
+          "id": null
+        },
+        {
+          "nombre": "AEROPARQUE  ",
+          "sigla": "MAE",
+          "id": null
+        },
+        {
+          "nombre": "DOT",
+          "sigla": "MDO",
+          "id": null
+        },
+        {
+          "nombre": "CARREFOUR VELEZ",
+          "sigla": "MVZ",
+          "id": null
+        },
+        {
+          "nombre": "WARNES",
+          "sigla": "MCW",
+          "id": null
+        },
+        {
+          "nombre": "SAN MARTIN",
+          "sigla": "MST",
+          "id": null
+        },
+        {
+          "nombre": "NORCENTER ",
+          "sigla": "MNC",
+          "id": null
+        },
+        {
+          "nombre": "TORTUGUITA",
+          "sigla": "MOT",
+          "id": null
+        },
+        {
+          "nombre": "SOLEIL",
+          "sigla": "MSF",
+          "id": null
+        },
+        {
+          "nombre": "PASEO PILAR",
+          "sigla": "MPP",
+          "id": null
+        },
+        {
+          "nombre": "PACHECO",
+          "sigla": "MBP",
+          "id": null
+        },
+        {
+          "nombre": "CONSTITUYENTES",
+          "sigla": "MCT",
+          "id": null
+        },
+        {
+          "nombre": "DEVOTO",
+          "sigla": "MDV",
+          "id": null
+        },
+        {
+          "nombre": "PANAMERICANA",
+          "sigla": "MPA",
+          "id": null
+        },
+        {
+          "nombre": "NEUQUEN AUTO",
+          "sigla": "MAN",
+          "id": null
+        },
+        {
+          "nombre": "HAEDO AUTO",
+          "sigla": "MMH",
+          "id": null
+        },
+        {
+          "nombre": "ALTO ROSARIO ",
+          "sigla": "MAR",
+          "id": null
+        },
+        {
+          "nombre": "CITY ROSARIO   ",
+          "sigla": "MCR",
+          "id": null
+        },
+        {
+          "nombre": "NINE",
+          "sigla": "MNI",
+          "id": null
+        },
+        {
+          "nombre": "MORON",
+          "sigla": "MMVP",
+          "id": null
+        },
+        {
+          "nombre": "PLAZA OESTE",
+          "sigla": "MPO",
+          "id": null
+        },
+        {
+          "nombre": "SAN MIGUEL 1",
+          "sigla": "MSM",
+          "id": null
+        },
+        {
+          "nombre": "LUJAN 2",
+          "sigla": "MLU",
+          "id": null
+        },
+        {
+          "nombre": "SAN JUSTO 4",
+          "sigla": "MCS",
+          "id": null
+        },
+        {
+          "nombre": "CATAN",
+          "sigla": "MGC",
+          "id": null
+        },
+        {
+          "nombre": "SAN JUSTO 1 ",
+          "sigla": "MSJ",
+          "id": null
+        },
+        {
+          "nombre": "TABLADA",
+          "sigla": "MTA",
+          "id": null
+        },
+        {
+          "nombre": "SAN JUSTO 2",
+          "sigla": "MWS",
+          "id": null
+        },
+        {
+          "nombre": "PARANÁ",
+          "sigla": "MEP",
+          "id": null
+        },
+        {
+          "nombre": "SALTA",
+          "sigla": "MSN",
+          "id": null
+        },
+        {
+          "nombre": "UNICENTER",
+          "sigla": "MUN",
+          "id": null
+        },
+        {
+          "nombre": "CASEROS",
+          "sigla": "MCB",
+          "id": null
+        },
+        {
+          "nombre": "PUERTO DE FRUTO",
+          "sigla": "MPF",
+          "id": null
+        },
+        {
+          "nombre": "TIGRE CALLE",
+          "sigla": "MTC",
+          "id": null
+        },
+        {
+          "nombre": "PARQUE LELOIR",
+          "sigla": "MLE",
+          "id": null
+        },
+        {
+          "nombre": "COMODORO CENTRO",
+          "sigla": "MCC",
+          "id": null
+        },
+        {
+          "nombre": "COMODORO RIVADAVIA  ",
+          "sigla": "MWC",
+          "id": null
+        },
+        {
+          "nombre": "Comodoro Auto",
+          "sigla": "MCH",
+          "id": null
+        },
+        {
+          "nombre": "CARREFOUR AVELLANEDA ",
+          "sigla": "MCA",
+          "id": null
+        },
+        {
+          "nombre": "AMERICAN FAVS",
+          "sigla": "AFA",
+          "id": null
+        },
+        {
+          "nombre": "ALTO AVELLANEDA ",
+          "sigla": "MAA",
+          "id": null
+        },
+        {
+          "nombre": "MADERO 2",
+          "sigla": "MOC",
+          "id": null
+        },
+        {
+          "nombre": "MADERO 3",
+          "sigla": "MPD",
+          "id": null
+        },
+        {
+          "nombre": "MADRYN",
+          "sigla": "MMA",
+          "id": null
+        },
+        {
+          "nombre": "TRELEW",
+          "sigla": "MTR",
+          "id": null
+        },
+        {
+          "nombre": "LAS TOSCAS ",
+          "sigla": "MLT",
+          "id": null
+        },
+        {
+          "nombre": "BOULEVARD",
+          "sigla": "MBO",
+          "id": null
+        },
+        {
+          "nombre": "LOMITAS ",
+          "sigla": "MLO",
+          "id": null
+        },
+        {
+          "nombre": "PORTAL LOMAS ",
+          "sigla": "MPL",
+          "id": null
+        },
+        {
+          "nombre": "Bahia Blanca",
+          "sigla": "MBB",
+          "id": null
+        },
+        {
+          "nombre": "QUILMES  JUMBO ",
+          "sigla": "MQM",
+          "id": null
+        },
+        {
+          "nombre": "SARANDI",
+          "sigla": "MAU",
+          "id": null
+        },
+        {
+          "nombre": "VARELA ",
+          "sigla": "MVA",
+          "id": null
+        },
+        {
+          "nombre": "LA PLATA ",
+          "sigla": "MLP",
+          "id": null
+        },
+        {
+          "nombre": "DOLORES",
+          "sigla": "MDB",
+          "id": null
+        },
+        {
+          "nombre": "AV LA PLATA CALLE",
+          "sigla": "MLC",
+          "id": null
+        },
+        {
+          "nombre": "ACOYTE",
+          "sigla": "MAC",
+          "id": null
+        },
+        {
+          "nombre": "CABALLITO ",
+          "sigla": "MVC",
+          "id": null
+        },
+        {
+          "nombre": "DIAGONAL ",
+          "sigla": "MDI",
+          "id": null
+        },
+        {
+          "nombre": "FLORIDA ",
+          "sigla": "MFL",
+          "id": null
+        },
+        {
+          "nombre": "PELLEGRINI BS AS ",
+          "sigla": "MC9",
+          "id": null
+        },
+        {
+          "nombre": "CORRIENTES Y 9 DE JULIO ",
+          "sigla": "MCO",
+          "id": null
+        },
+        {
+          "nombre": "FLORIDA 2",
+          "sigla": "MF2",
+          "id": null
+        },
+        {
+          "nombre": "GALERIAS PACIFICO   ",
+          "sigla": "MGP",
+          "id": null
+        },
+        {
+          "nombre": "TUCUMAN 1",
+          "sigla": "MPT",
+          "id": null
+        },
+        {
+          "nombre": "RECOLETA ",
+          "sigla": "MRM",
+          "id": null
+        },
+        {
+          "nombre": "CORDOBA GENERAL PAZ  ",
+          "sigla": "MCG",
+          "id": null
+        },
+        {
+          "nombre": "PASEO LIBERTAD",
+          "sigla": "MCL",
+          "id": null
+        },
+        {
+          "nombre": "RIO CUARTO",
+          "sigla": "MRC",
+          "id": null
+        },
+        {
+          "nombre": "PATIO OLMOS ",
+          "sigla": "MCP",
+          "id": null
+        },
+        {
+          "nombre": "VILLA CABRERA ",
+          "sigla": "MCV",
+          "id": null
+        },
+        {
+          "nombre": "NUEVO CENTRO",
+          "sigla": "MSC",
+          "id": null
+        },
+        {
+          "nombre": "SHOPPING JOCKEY CLUB",
+          "sigla": "MJC",
+          "id": null
+        },
+        {
+          "nombre": "MOSTAZA POSADAS",
+          "sigla": "MMP",
+          "id": null
+        },
+        {
+          "nombre": "ALBERDI",
+          "sigla": "MAT",
+          "id": null
+        },
+        {
+          "nombre": "ABASTO",
+          "sigla": "MAB",
+          "id": null
+        },
+        {
+          "nombre": "ALTO PALERMO",
+          "sigla": "MAP",
+          "id": null
+        },
+        {
+          "nombre": "JUAN B JUSTO   ",
+          "sigla": "MCJ",
+          "id": null
+        },
+        {
+          "nombre": "TRENES",
+          "sigla": "MJS",
+          "id": null
+        },
+        {
+          "nombre": "PARQUE BROWN",
+          "sigla": "MPB",
+          "id": null
+        },
+        {
+          "nombre": "CENTENARIO",
+          "sigla": "MPC",
+          "id": null
+        },
+        {
+          "nombre": "FOOD TRUCK",
+          "sigla": "MT1",
+          "id": null
+        },
+        {
+          "nombre": "Posadas Calle",
+          "sigla": "MMC",
+          "id": null
+        },
+        {
+          "nombre": "MORENO 1",
+          "sigla": "MCM",
+          "id": null
+        },
+        {
+          "nombre": "ITUZAINGO",
+          "sigla": "MIVP",
+          "id": null
+        }
+      ],
+      "total": 93
+    }
+  ],
+  "mapeo_unificado": {
+    "-": {
+      "nombre": "Terrada",
+      "sigla": "-",
+      "id": "070",
+      "rama": "Franquicias 2026 - Siglas/Razon Social/CUIT"
+    },
+    "JUJUY 2 (Tuc)": {
+      "nombre": "JUJUY 2 (Tuc)",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PORTAL TUCUMAN": {
+      "nombre": "PORTAL TUCUMAN",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "S DEL ESTERO": {
+      "nombre": "S DEL ESTERO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA AUTO 2 (Tuc)": {
+      "nombre": "SALTA AUTO 2 (Tuc)",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 2": {
+      "nombre": "TUCUMAN 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 3": {
+      "nombre": "TUCUMAN 3",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 4": {
+      "nombre": "TUCUMAN 4",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 5": {
+      "nombre": "TUCUMAN 5",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 6": {
+      "nombre": "TUCUMAN 6",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 7": {
+      "nombre": "TUCUMAN 7",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMAN 8": {
+      "nombre": "TUCUMAN 8",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TUCUMÁN 9": {
+      "nombre": "TUCUMÁN 9",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "BOLIVAR": {
+      "nombre": "BOLIVAR",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CABILDO": {
+      "nombre": "CABILDO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CABILDO 2": {
+      "nombre": "CABILDO 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CONSTITUCION": {
+      "nombre": "CONSTITUCION",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "FLORES": {
+      "nombre": "FLORES",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "FORMOSA": {
+      "nombre": "FORMOSA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "JUNIN": {
+      "nombre": "JUNIN",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "ONCE": {
+      "nombre": "ONCE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "POMPEYA": {
+      "nombre": "POMPEYA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PRIMERA JUNTA": {
+      "nombre": "PRIMERA JUNTA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SPINETTO": {
+      "nombre": "SPINETTO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TERRADA": {
+      "nombre": "TERRADA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CORRIENTES": {
+      "nombre": "CORRIENTES",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "F. ALVAREZ": {
+      "nombre": "F. ALVAREZ",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LINIERS": {
+      "nombre": "LINIERS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LUJAN": {
+      "nombre": "LUJAN",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "MERLO": {
+      "nombre": "MERLO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "MORENO": {
+      "nombre": "MORENO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "MORÓN": {
+      "nombre": "MORÓN",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "RESISTENCIA": {
+      "nombre": "RESISTENCIA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN FERNANDO": {
+      "nombre": "SAN FERNANDO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN LUIS": {
+      "nombre": "SAN LUIS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN MIGUEL 3": {
+      "nombre": "SAN MIGUEL 3",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN MIGUEL A.": {
+      "nombre": "SAN MIGUEL A.",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "BERAZATEGUI": {
+      "nombre": "BERAZATEGUI",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CARRE QUILMES": {
+      "nombre": "CARRE QUILMES",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CITY BELL": {
+      "nombre": "CITY BELL",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "GONNET": {
+      "nombre": "GONNET",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LA PLATA 2": {
+      "nombre": "LA PLATA 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LA PLATA 3": {
+      "nombre": "LA PLATA 3",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LA PLATA 4": {
+      "nombre": "LA PLATA 4",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "REPUBLICA": {
+      "nombre": "REPUBLICA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "RIO GALLEGOS": {
+      "nombre": "RIO GALLEGOS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "RIO GRANDE": {
+      "nombre": "RIO GRANDE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "ROTONDA": {
+      "nombre": "ROTONDA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "USHUAIA": {
+      "nombre": "USHUAIA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "WILDE": {
+      "nombre": "WILDE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "JUJUY": {
+      "nombre": "JUJUY",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "JUJUY 2": {
+      "nombre": "JUJUY 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PORTAL SALTA": {
+      "nombre": "PORTAL SALTA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA AUTO": {
+      "nombre": "SALTA AUTO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA AUTO 2": {
+      "nombre": "SALTA AUTO 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA LIBERTAD": {
+      "nombre": "SALTA LIBERTAD",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA NOA": {
+      "nombre": "SALTA NOA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA ORAN": {
+      "nombre": "SALTA ORAN",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SALTA PEATONAL": {
+      "nombre": "SALTA PEATONAL",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "ALDREY": {
+      "nombre": "ALDREY",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "GALLEGOS": {
+      "nombre": "GALLEGOS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LA PERLA": {
+      "nombre": "LA PERLA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "OLAVARRIA": {
+      "nombre": "OLAVARRIA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PEATONAL": {
+      "nombre": "PEATONAL",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TANDIL": {
+      "nombre": "TANDIL",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TANDIL 2": {
+      "nombre": "TANDIL 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CANNING": {
+      "nombre": "CANNING",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "EZEIZA": {
+      "nombre": "EZEIZA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LA PAMPA": {
+      "nombre": "LA PAMPA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LAFERRERE 2": {
+      "nombre": "LAFERRERE 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LANUS 2": {
+      "nombre": "LANUS 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LOMAS": {
+      "nombre": "LOMAS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LOMAS AUTO": {
+      "nombre": "LOMAS AUTO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "MONTEGRANDE": {
+      "nombre": "MONTEGRANDE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "RAMOS": {
+      "nombre": "RAMOS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN JUAN": {
+      "nombre": "SAN JUAN",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN JUAN 2": {
+      "nombre": "SAN JUAN 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN JUSTO": {
+      "nombre": "SAN JUSTO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "9 DE JULIO": {
+      "nombre": "9 DE JULIO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "AV CORDOBA": {
+      "nombre": "AV CORDOBA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "AV DE MAYO": {
+      "nombre": "AV DE MAYO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "AV DE MAYO 2": {
+      "nombre": "AV DE MAYO 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "BOEDO": {
+      "nombre": "BOEDO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CALLAO": {
+      "nombre": "CALLAO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PARQUE CHAC": {
+      "nombre": "PARQUE CHAC",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "RAFAELA": {
+      "nombre": "RAFAELA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "RIBERA SANTA FE": {
+      "nombre": "RIBERA SANTA FE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN TELMO": {
+      "nombre": "SAN TELMO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SANTA FE P.": {
+      "nombre": "SANTA FE P.",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "URQUIZA": {
+      "nombre": "URQUIZA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "WALMART STA FE": {
+      "nombre": "WALMART STA FE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "ALTO ROSARIO": {
+      "nombre": "ALTO ROSARIO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CITY CENTER": {
+      "nombre": "CITY CENTER",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "FUNES": {
+      "nombre": "FUNES",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "OROÑO": {
+      "nombre": "OROÑO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PELLEGRINI": {
+      "nombre": "PELLEGRINI",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PORTAL ROSARIO": {
+      "nombre": "PORTAL ROSARIO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PUMA": {
+      "nombre": "PUMA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "ROSARIO SUR": {
+      "nombre": "ROSARIO SUR",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN NICOLAS": {
+      "nombre": "SAN NICOLAS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CASEROS": {
+      "nombre": "CASEROS",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "CATAMARCA": {
+      "nombre": "CATAMARCA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "GRAND BOURG": {
+      "nombre": "GRAND BOURG",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "GUALEGUAYCHU": {
+      "nombre": "GUALEGUAYCHU",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "JOSE C PAZ": {
+      "nombre": "JOSE C PAZ",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "LA RIOJA": {
+      "nombre": "LA RIOJA",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "PALMAS PILAR": {
+      "nombre": "PALMAS PILAR",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN ISIDRO": {
+      "nombre": "SAN ISIDRO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN MARTIN 2": {
+      "nombre": "SAN MARTIN 2",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "SAN MARTIN AUTO": {
+      "nombre": "SAN MARTIN AUTO",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "VILLA DEL PARQUE": {
+      "nombre": "VILLA DEL PARQUE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "ZARATE": {
+      "nombre": "ZARATE",
+      "sigla": null,
+      "id": null,
+      "rama": "Franquicias 2026 - Regional"
+    },
+    "TRD2": {
+      "nombre": "Tandil 2",
+      "sigla": "TRD2",
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "FMSAA": {
+      "nombre": "Salta Auto 2",
+      "sigla": "FMSAA",
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "FMTER": {
+      "nombre": "Terrada",
+      "sigla": "FMTER",
+      "id": "070",
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "FMMCB": {
+      "nombre": "Caseros",
+      "sigla": "FMMCB",
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "FMFUN": {
+      "nombre": "Funes",
+      "sigla": "FMFUN",
+      "id": "106",
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "Funes": {
+      "nombre": "Funes",
+      "sigla": null,
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "Güemes": {
+      "nombre": "Güemes",
+      "sigla": null,
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "Mendoza Centro": {
+      "nombre": "Mendoza Centro",
+      "sigla": null,
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "Mendoza Colón": {
+      "nombre": "Mendoza Colón",
+      "sigla": null,
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "San Rafael": {
+      "nombre": "San Rafael",
+      "sigla": null,
+      "id": null,
+      "rama": "La Sabana - Matriz de Locales V4"
+    },
+    "MWG": {
+      "nombre": "WALMART GUAYMALLEN",
+      "sigla": "MWG",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MBM": {
+      "nombre": "BARRACAS MALL",
+      "sigla": "MBM",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MML": {
+      "nombre": "LUJAN DE CUYO",
+      "sigla": "MML",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MMZ": {
+      "nombre": "MENDOZA ",
+      "sigla": "MMZ",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAM ": {
+      "nombre": "ARENA MAIPU",
+      "sigla": "MAM ",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLA": {
+      "nombre": "NEUQUEN  3 ( LA ANONIMA )",
+      "sigla": "MLA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MNA": {
+      "nombre": "NEUQUEN 2  ALTO COMAHUE ",
+      "sigla": "MNA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MNQ": {
+      "nombre": "NEUQUEN  1",
+      "sigla": "MNQ",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MWN": {
+      "nombre": "NEUQUEN  4  ( WALMART )",
+      "sigla": "MWN",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAE": {
+      "nombre": "AEROPARQUE  ",
+      "sigla": "MAE",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MDO": {
+      "nombre": "DOT",
+      "sigla": "MDO",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MVZ": {
+      "nombre": "CARREFOUR VELEZ",
+      "sigla": "MVZ",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCW": {
+      "nombre": "WARNES",
+      "sigla": "MCW",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MST": {
+      "nombre": "SAN MARTIN",
+      "sigla": "MST",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MNC": {
+      "nombre": "NORCENTER ",
+      "sigla": "MNC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MOT": {
+      "nombre": "TORTUGUITA",
+      "sigla": "MOT",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MSF": {
+      "nombre": "SOLEIL",
+      "sigla": "MSF",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPP": {
+      "nombre": "PASEO PILAR",
+      "sigla": "MPP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MBP": {
+      "nombre": "PACHECO",
+      "sigla": "MBP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCT": {
+      "nombre": "CONSTITUYENTES",
+      "sigla": "MCT",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MDV": {
+      "nombre": "DEVOTO",
+      "sigla": "MDV",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPA": {
+      "nombre": "PANAMERICANA",
+      "sigla": "MPA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAN": {
+      "nombre": "NEUQUEN AUTO",
+      "sigla": "MAN",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MMH": {
+      "nombre": "HAEDO AUTO",
+      "sigla": "MMH",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MNI": {
+      "nombre": "NINE",
+      "sigla": "MNI",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MMVP": {
+      "nombre": "MORON",
+      "sigla": "MMVP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPO": {
+      "nombre": "PLAZA OESTE",
+      "sigla": "MPO",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MSM": {
+      "nombre": "SAN MIGUEL 1",
+      "sigla": "MSM",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLU": {
+      "nombre": "LUJAN 2",
+      "sigla": "MLU",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCS": {
+      "nombre": "SAN JUSTO 4",
+      "sigla": "MCS",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MGC": {
+      "nombre": "CATAN",
+      "sigla": "MGC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MSJ": {
+      "nombre": "SAN JUSTO 1 ",
+      "sigla": "MSJ",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MTA": {
+      "nombre": "TABLADA",
+      "sigla": "MTA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MWS": {
+      "nombre": "SAN JUSTO 2",
+      "sigla": "MWS",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MEP": {
+      "nombre": "PARANÁ",
+      "sigla": "MEP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MUN": {
+      "nombre": "UNICENTER",
+      "sigla": "MUN",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCB": {
+      "nombre": "CASEROS",
+      "sigla": "MCB",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPF": {
+      "nombre": "PUERTO DE FRUTO",
+      "sigla": "MPF",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MTC": {
+      "nombre": "TIGRE CALLE",
+      "sigla": "MTC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLE": {
+      "nombre": "PARQUE LELOIR",
+      "sigla": "MLE",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCC": {
+      "nombre": "COMODORO CENTRO",
+      "sigla": "MCC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MWC": {
+      "nombre": "COMODORO RIVADAVIA  ",
+      "sigla": "MWC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCH": {
+      "nombre": "Comodoro Auto",
+      "sigla": "MCH",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCA": {
+      "nombre": "CARREFOUR AVELLANEDA ",
+      "sigla": "MCA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "AFA": {
+      "nombre": "AMERICAN FAVS",
+      "sigla": "AFA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAA": {
+      "nombre": "ALTO AVELLANEDA ",
+      "sigla": "MAA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MOC": {
+      "nombre": "MADERO 2",
+      "sigla": "MOC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPD": {
+      "nombre": "MADERO 3",
+      "sigla": "MPD",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MMA": {
+      "nombre": "MADRYN",
+      "sigla": "MMA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MTR": {
+      "nombre": "TRELEW",
+      "sigla": "MTR",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLT": {
+      "nombre": "LAS TOSCAS ",
+      "sigla": "MLT",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MBO": {
+      "nombre": "BOULEVARD",
+      "sigla": "MBO",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLO": {
+      "nombre": "LOMITAS ",
+      "sigla": "MLO",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPL": {
+      "nombre": "PORTAL LOMAS ",
+      "sigla": "MPL",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MBB": {
+      "nombre": "Bahia Blanca",
+      "sigla": "MBB",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MQM": {
+      "nombre": "QUILMES  JUMBO ",
+      "sigla": "MQM",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAU": {
+      "nombre": "SARANDI",
+      "sigla": "MAU",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MVA": {
+      "nombre": "VARELA ",
+      "sigla": "MVA",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLP": {
+      "nombre": "LA PLATA ",
+      "sigla": "MLP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MDB": {
+      "nombre": "DOLORES",
+      "sigla": "MDB",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MLC": {
+      "nombre": "AV LA PLATA CALLE",
+      "sigla": "MLC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAC": {
+      "nombre": "ACOYTE",
+      "sigla": "MAC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MVC": {
+      "nombre": "CABALLITO ",
+      "sigla": "MVC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MDI": {
+      "nombre": "DIAGONAL ",
+      "sigla": "MDI",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MFL": {
+      "nombre": "FLORIDA ",
+      "sigla": "MFL",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MC9": {
+      "nombre": "PELLEGRINI BS AS ",
+      "sigla": "MC9",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCO": {
+      "nombre": "CORRIENTES Y 9 DE JULIO ",
+      "sigla": "MCO",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MF2": {
+      "nombre": "FLORIDA 2",
+      "sigla": "MF2",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MGP": {
+      "nombre": "GALERIAS PACIFICO   ",
+      "sigla": "MGP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MRM": {
+      "nombre": "RECOLETA ",
+      "sigla": "MRM",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCG": {
+      "nombre": "CORDOBA GENERAL PAZ  ",
+      "sigla": "MCG",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCL": {
+      "nombre": "PASEO LIBERTAD",
+      "sigla": "MCL",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MRC": {
+      "nombre": "RIO CUARTO",
+      "sigla": "MRC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCP": {
+      "nombre": "PATIO OLMOS ",
+      "sigla": "MCP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCV": {
+      "nombre": "VILLA CABRERA ",
+      "sigla": "MCV",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MSC": {
+      "nombre": "NUEVO CENTRO",
+      "sigla": "MSC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MJC": {
+      "nombre": "SHOPPING JOCKEY CLUB",
+      "sigla": "MJC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MMP": {
+      "nombre": "MOSTAZA POSADAS",
+      "sigla": "MMP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAT": {
+      "nombre": "ALBERDI",
+      "sigla": "MAT",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAB": {
+      "nombre": "ABASTO",
+      "sigla": "MAB",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MAP": {
+      "nombre": "ALTO PALERMO",
+      "sigla": "MAP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCJ": {
+      "nombre": "JUAN B JUSTO   ",
+      "sigla": "MCJ",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MJS": {
+      "nombre": "TRENES",
+      "sigla": "MJS",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPB": {
+      "nombre": "PARQUE BROWN",
+      "sigla": "MPB",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MPC": {
+      "nombre": "CENTENARIO",
+      "sigla": "MPC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MT1": {
+      "nombre": "FOOD TRUCK",
+      "sigla": "MT1",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MMC": {
+      "nombre": "Posadas Calle",
+      "sigla": "MMC",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MCM": {
+      "nombre": "MORENO 1",
+      "sigla": "MCM",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    },
+    "MIVP": {
+      "nombre": "ITUZAINGO",
+      "sigla": "MIVP",
+      "id": null,
+      "rama": "Propios - AGOSTO 2026"
+    }
+  }
+}
