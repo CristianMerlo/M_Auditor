@@ -32,13 +32,12 @@
     t.appendChild(etq(bloque==='cocina'?'Paso 3':'Paso 4'));
     var h=document.createElement('h2');h.className='tarjeta__titulo';h.textContent=titulo;t.appendChild(h);
     var puntuables=items.filter(function(it){return it.tipo!=='agua';});
-    var tocados=0,na=0,declarados=0;
-    puntuables.forEach(function(it){var d=v.items[it.id];if(!d)return;
-      if(d.na)na++;else if(d.tocado)tocados++;else if(d.declarado)declarados++;});
-    var pend=puntuables.length-tocados-na-declarados;
+    var tocados=0,na=0;
+    puntuables.forEach(function(it){var d=v.items[it.id];if(!d)return;if(d.na)na++;else if(d.tocado)tocados++;});
+    var pend=puntuables.length-tocados-na;
     var p=document.createElement('p');p.className='tarjeta__texto';
     p.textContent='Todos arrancan en 100. Ajustá solo lo que esté mal. Ajustados: '+tocados+
-      ' · N/A: '+na+' · sin tocar: '+pend;
+      ' · N/A: '+na+' · en 100: '+pend+'. La confirmación final va antes de firmar.';
     t.appendChild(p);
     var sc=window.Scoring.promedioBloque(v,bloque);
     var barra=document.createElement('div');barra.className='progreso-bloque';
@@ -46,19 +45,6 @@
     fill.style.width=(sc==null?0:sc)+'%';barra.appendChild(fill);t.appendChild(barra);
     var pv=document.createElement('p');pv.className='item__ayuda';
     pv.textContent='Puntaje del bloque: '+(sc==null?'—':sc+'/100');t.appendChild(pv);
-    if(pend>0){
-      var b=document.createElement('button');b.type='button';b.className='btn btn--ok btn--bloque';
-      b.textContent='Marcar los '+pend+' sin tocar como "sin observaciones"';
-      b.addEventListener('click',function(){
-        window.Visita.aplicar(function(vv){puntuables.forEach(function(it){var d=vv.items[it.id];
-          if(d&&!d.tocado&&!d.na)d.declarado=true;});vv.declarados[bloque]=true;},'declarar:'+bloque);
-        window.UI.render();
-      });
-      t.appendChild(b);
-    } else {
-      var ok=document.createElement('p');ok.className='item__ayuda';ok.style.color='var(--c-verde)';
-      ok.textContent='✓ Todos los ítems del bloque fueron revisados.';t.appendChild(ok);
-    }
     cont.appendChild(t);
   }
   function etq(t){var s=document.createElement('span');s.className='etiqueta';s.textContent=t;return s;}

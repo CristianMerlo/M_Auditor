@@ -1,10 +1,6 @@
-/* Items del recorrido. Cada uno declara su TIPO. Cambiar el tipo es editar UNA
-   linea; el motor y el scoring no se tocan. Nombres EXACTOS del documento
-   (9.2 y 9.3). Foto: 12 edilicios + coc-09 + coc-11. */
 window.Checklist=(function(){
   'use strict';
   var COCINA=[
-    {id:'coc-01',nombre:'Entrada a cocina',tipo:'slider'},
     {id:'coc-02',nombre:'Cafetera y módulo de bebidas',tipo:'slider'},
     {id:'coc-03',nombre:'Módulo de retención / Transfer',tipo:'slider'},
     {id:'coc-04',nombre:'Heladeras y freezers de línea (bajo mesada)',tipo:'slider'},
@@ -20,6 +16,7 @@ window.Checklist=(function(){
   var EDILICIO=[
     {id:'edi-01',nombre:'Fachada, marquesina y acceso principal',tipo:'slider',fotos:true},
     {id:'edi-02',nombre:'Salón comercial (Pisos, zócalos y paredes)',tipo:'slider',fotos:true},
+    {id:'edi-02b',nombre:'Estado general de cocina',tipo:'slider',fotos:true},
     {id:'edi-03',nombre:'Cielorrasos e iluminación general del salón',tipo:'slider',fotos:true},
     {id:'edi-04',nombre:'Sistema de climatización / Aires acondicionados (Grillas y difusores)',tipo:'slider',fotos:true},
     {id:'edi-05',nombre:'Baños públicos y sanitarios',tipo:'slider',fotos:true},

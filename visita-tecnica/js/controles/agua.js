@@ -1,15 +1,12 @@
-/* Filtrado de agua. NO puntua: semaforo aparte del promedio. Cortes 50/120/300.
-   1-49 ROJO, 50-119 VERDE, 120-300 AMARILLO, >300 ROJO. Sin medir = gris, NUNCA
-   verde. 2+ NO OP -> ROJO; 1 NO OP -> sube un nivel. Osmosis N/A se excluye.
-   Todo lo que mueve el color queda en 'porQue' para el PDF. */
 (function(){
   'use strict';
-  function inicial(){return {tipo:'agua',ppm:{estado:'sin_medir',valor:null},
+  function inicial(){return {tipo:'agua',ppm:{estado:'medido',valor:null},
     filtro:'OP',ablandador:'OP',osmosis:'N/A',detalle:'',semaforo:'gris',porQue:''};}
   function nivelPorPpm(v){ if(v>=1&&v<=49)return {n:'rojo',txt:'PPM '+v+' bajo rango (1-49): agua muy blanda'};
     if(v>=50&&v<=119)return {n:'verde',txt:'PPM '+v+' en rango óptimo (50-119)'};
     if(v>=120&&v<=300)return {n:'amarillo',txt:'PPM '+v+' en rango de alerta (120-300)'};
     if(v>300)return {n:'rojo',txt:'PPM '+v+' agua dura (>300)'};
+    if(v===0)return {n:'rojo',txt:'PPM 0: revisar, valor fuera de rango'};
     return {n:'verde',txt:'PPM '+v}; }
   function sube(n){return n==='verde'?'amarillo':(n==='amarillo'?'rojo':'rojo');}
   function calcular(d){
@@ -44,19 +41,20 @@
     val.textContent=({verde:'VERDE',amarillo:'AMARILLO',rojo:'ROJO',gris:'SIN MEDIR'})[d.semaforo];
     cab.appendChild(h);cab.appendChild(val);t.appendChild(cab);
     var por=document.createElement('p');por.className='item__ayuda';por.textContent=d.porQue;t.appendChild(por);
-    var lblPend=document.createElement('label');lblPend.className='na-fila';
-    var pend=document.createElement('input');pend.type='checkbox';pend.checked=(d.ppm.estado==='sin_medir');
-    var pt=document.createElement('span');pt.textContent='PPM pendiente / sin medir';
-    pend.addEventListener('change',function(){ if(pend.checked){d.ppm.estado='sin_medir';d.ppm.valor=null;}
-      else{d.ppm.estado='medido';if(d.ppm.valor==null)d.ppm.valor=0;} alCambiar(d,{});window.UI.render(); });
-    lblPend.appendChild(pend);lblPend.appendChild(pt);t.appendChild(lblPend);
     if(d.ppm.estado==='medido'){
-      var e=document.createElement('span');e.className='etiqueta';e.style.marginTop='8px';e.textContent='PPM post-filtrado';t.appendChild(e);
+      var e=document.createElement('span');e.className='etiqueta';e.textContent='PPM post-filtrado (medí y cargá el valor)';t.appendChild(e);
       var i=document.createElement('input');i.type='number';i.className='campo';i.inputMode='numeric';
-      i.min=window.CONFIG.ppm.min;i.max=window.CONFIG.ppm.max;i.value=(d.ppm.valor==null?'':d.ppm.valor);
-      i.addEventListener('change',function(){var n=parseInt(i.value,10);d.ppm.valor=isFinite(n)?n:0;alCambiar(d,{});window.UI.render();});
+      i.min=window.CONFIG.ppm.min;i.max=window.CONFIG.ppm.max;i.placeholder='ej. 95';
+      i.value=(d.ppm.valor==null?'':d.ppm.valor);
+      i.addEventListener('change',function(){var n=parseInt(i.value,10);d.ppm.valor=isFinite(n)?n:null;alCambiar(d,{});window.UI.render();});
       t.appendChild(i);
     }
+    var lblPend=document.createElement('label');lblPend.className='na-fila';
+    var pend=document.createElement('input');pend.type='checkbox';pend.checked=(d.ppm.estado==='sin_medir');
+    var pt=document.createElement('span');pt.textContent='No se pudo medir (dejar pendiente)';
+    pend.addEventListener('change',function(){ if(pend.checked){d.ppm.estado='sin_medir';d.ppm.valor=null;}
+      else{d.ppm.estado='medido';} alCambiar(d,{});window.UI.render(); });
+    lblPend.appendChild(pend);lblPend.appendChild(pt);t.appendChild(lblPend);
     var comp=[['filtro','Filtro',['OP','NO OP','N/A']],['ablandador','Ablandador',['OP','NO OP','N/A']],
       ['osmosis','Ósmosis',['N/A','OP','NO OP']]];
     comp.forEach(function(c){var lab=document.createElement('span');lab.className='etiqueta';lab.textContent=c[1];t.appendChild(lab);
@@ -68,7 +66,7 @@
   }
   function aPdf(item,d){ calcular(d);
     var l=['Estado: '+({verde:'VERDE',amarillo:'AMARILLO',rojo:'ROJO',gris:'SIN MEDIR'})[d.semaforo],
-      'PPM: '+(d.ppm.estado==='sin_medir'?'sin medir':d.ppm.valor),
+      'PPM: '+((d.ppm.estado==='sin_medir'||d.ppm.valor==null)?'sin medir':d.ppm.valor),
       'Filtro: '+d.filtro+'  ·  Ablandador: '+d.ablandador+'  ·  Ósmosis: '+d.osmosis,
       'Motivo del color: '+d.porQue];
     if(String(d.detalle||'').trim())l.push('Instalación: '+d.detalle);
