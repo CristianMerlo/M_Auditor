@@ -20,8 +20,15 @@
       puedeAvanzar:function(v){
         var items=window.Checklist.porBloque(bloque);
         for(var i=0;i<items.length;i++){var it=items[i],d=v.items[it.id];
-          if(d&&d.na&&!String(d.motivoNa||'').trim())
-            return 'El ítem "'+it.nombre+'" está en No aplica sin motivo. Escribí el motivo.';}
+          if(!d)continue;
+          if(d.na&&!String(d.motivoNa||'').trim())
+            return 'El ítem "'+it.nombre+'" está en No aplica sin motivo. Escribí el motivo.';
+          if(it.fotos && !d.na && typeof d.valor==='number' && d.valor<window.CONFIG.umbralFotoObligatoria){
+            var n=window.Fotos.fotosDe(d);
+            if(n<window.CONFIG.fotosMinObligatorias)
+              return 'El ítem "'+it.nombre+'" tiene puntaje crítico. Cargá al menos '+window.CONFIG.fotosMinObligatorias+' fotos para avanzar.';
+          }
+        }
         return true;
       }
     };
@@ -37,7 +44,7 @@
     var pend=puntuables.length-tocados-na;
     var p=document.createElement('p');p.className='tarjeta__texto';
     p.textContent='Todos arrancan en 100. Ajustá solo lo que esté mal. Ajustados: '+tocados+
-      ' · N/A: '+na+' · en 100: '+pend+'. La confirmación final va antes de firmar.';
+      ' · N/A: '+na+' · en 100: '+pend+'. Un ítem crítico (<60) exige 2 fotos.';
     t.appendChild(p);
     var sc=window.Scoring.promedioBloque(v,bloque);
     var barra=document.createElement('div');barra.className='progreso-bloque';

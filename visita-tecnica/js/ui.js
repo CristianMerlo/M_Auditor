@@ -63,11 +63,24 @@ window.UI=(function(){
     if(!p.length)p.push('Visita en curso · sin identificar');return p.join(' · ');}
   function renderInicio(){
     n.panel.innerHTML='';
+    var hero=document.createElement('div');hero.className='hero';
+    var caja=document.createElement('div');caja.className='hero__logo';
+    var img=document.createElement('img');img.src='img/logo.png';img.alt='Mostaza';img.className='hero__img';
+    img.onerror=function(){caja.classList.add('hero__logo--fb');caja.textContent='M';};
+    caja.appendChild(img);hero.appendChild(caja);
+    var h=document.createElement('h1');h.className='hero__titulo';h.textContent='Auditoría Técnica';hero.appendChild(h);
+    var sub=document.createElement('p');sub.className='hero__sub';
+    sub.textContent='Mantenimiento Franquicias y Propios · Auditoría Salud de Locales';hero.appendChild(sub);
+    n.panel.appendChild(hero);
     var t=document.createElement('div');t.className='tarjeta';
-    t.innerHTML='<h2 class="tarjeta__titulo">Nueva visita</h2><p class="tarjeta__texto">Una visita a la vez. Todo se guarda solo, en el momento: si se corta la señal, se bloquea el teléfono o se recarga, la visita sigue donde la dejaste.</p>';
+    t.innerHTML='<p class="tarjeta__texto">Una auditoría a la vez. Todo se guarda solo, en el momento: si se corta la señal, se bloquea el teléfono o se recarga la página, la auditoría sigue donde la dejaste.</p>'+
+      '<p class="tarjeta__texto" style="margin-top:8px"><strong>Máximo 20 fotos por auditoría.</strong> Organizá qué documentar (edilicio admite hasta 4 por ítem; cocina, 2).</p>';
     var b=document.createElement('button');b.type='button';b.className='btn btn--principal btn--bloque';
-    b.textContent='Iniciar visita';b.addEventListener('click',function(){window.Visita.iniciar();render();});
+    b.textContent='Iniciar auditoría';b.addEventListener('click',function(){window.Visita.iniciar();render();});
     t.appendChild(b);n.panel.appendChild(t);
+    var info=document.createElement('p');info.className='hero__info';
+    info.textContent=window.Locales.total+' locales cargados · Control Interno Regional · v'+window.CONFIG.version;
+    n.panel.appendChild(info);
   }
   function modal(op){
     n.modalCaja.innerHTML='';
