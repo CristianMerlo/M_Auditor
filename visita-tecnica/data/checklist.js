@@ -1,15 +1,15 @@
 window.Checklist=(function(){
   'use strict';
   var COCINA=[
-    {id:'coc-02',nombre:'Cafetera y módulo de bebidas',tipo:'slider'},
-    {id:'coc-03',nombre:'Módulo de retención / Transfer',tipo:'slider'},
-    {id:'coc-04',nombre:'Heladeras y freezers de línea (bajo mesada)',tipo:'slider'},
-    {id:'coc-05',nombre:'Tostadoras',tipo:'slider'},
-    {id:'coc-06',nombre:'Broiler',tipo:'slider'},
-    {id:'coc-07',nombre:'Planchas',tipo:'slider'},
-    {id:'coc-08',nombre:'Freidoras',tipo:'slider'},
+    {id:'coc-02',nombre:'Cafetera y módulo de bebidas',tipo:'slider',fotos:true},
+    {id:'coc-03',nombre:'Módulo de retención / Transfer',tipo:'slider',fotos:true},
+    {id:'coc-04',nombre:'Heladeras y freezers de línea (bajo mesada)',tipo:'slider',fotos:true},
+    {id:'coc-05',nombre:'Tostadoras',tipo:'slider',fotos:true},
+    {id:'coc-06',nombre:'Broiler',tipo:'slider',fotos:true},
+    {id:'coc-07',nombre:'Planchas',tipo:'slider',fotos:true},
+    {id:'coc-08',nombre:'Freidoras',tipo:'slider',fotos:true},
     {id:'coc-09',nombre:'Campana de extracción y filtros',tipo:'slider',fotos:true},
-    {id:'coc-10',nombre:'Cámaras de frío (Refrigeración y Congelado)',tipo:'slider'},
+    {id:'coc-10',nombre:'Cámaras de frío (Refrigeración y Congelado)',tipo:'slider',fotos:true},
     {id:'coc-11',nombre:'Fábrica de hielo',tipo:'slider',fotos:true},
     {id:'coc-12',nombre:'Equipo de filtración de agua / Dispensadores',tipo:'agua',puntua:false}
   ];

@@ -1,14 +1,15 @@
 (function(){
   'use strict';
+  var ESCALA=['verde','amarillo','naranja','rojo'];
   function inicial(){return {tipo:'agua',ppm:{estado:'medido',valor:null},
     filtro:'OP',ablandador:'OP',osmosis:'N/A',detalle:'',semaforo:'gris',porQue:''};}
-  function nivelPorPpm(v){ if(v>=1&&v<=49)return {n:'rojo',txt:'PPM '+v+' bajo rango (1-49): agua muy blanda'};
+  function nivelPorPpm(v){ if(v>=1&&v<=49)return {n:'naranja',txt:'PPM '+v+' bajo rango (1-49): agua muy blanda'};
     if(v>=50&&v<=119)return {n:'verde',txt:'PPM '+v+' en rango óptimo (50-119)'};
     if(v>=120&&v<=300)return {n:'amarillo',txt:'PPM '+v+' en rango de alerta (120-300)'};
-    if(v>300)return {n:'rojo',txt:'PPM '+v+' agua dura (>300)'};
+    if(v>300)return {n:'rojo',txt:'PPM '+v+' agua dura (>300): crítico'};
     if(v===0)return {n:'rojo',txt:'PPM 0: revisar, valor fuera de rango'};
     return {n:'verde',txt:'PPM '+v}; }
-  function sube(n){return n==='verde'?'amarillo':(n==='amarillo'?'rojo':'rojo');}
+  function sube(n){var i=ESCALA.indexOf(n);return ESCALA[Math.min(i+1,ESCALA.length-1)];}
   function calcular(d){
     var noop=0,comp=[];
     ['filtro','ablandador','osmosis'].forEach(function(k){
@@ -28,6 +29,8 @@
     if(d.osmosis==='N/A')por+='. Ósmosis en N/A: excluida del cálculo.';
     d.semaforo=nivel; d.porQue=por; return {nivel:nivel,porQue:por};
   }
+  function claseColor(sem){return sem==='naranja'?'marca':(sem==='gris'?'gris':sem);}
+  function rotulo(sem){return ({verde:'VERDE',amarillo:'AMARILLO',naranja:'NARANJA',rojo:'ROJO',gris:'SIN MEDIR'})[sem];}
   function seg(t,val,opciones,onset){ var w=document.createElement('div');w.className='seg';
     opciones.forEach(function(o){var b=document.createElement('button');b.type='button';
       b.className='seg__b'+(val===o?' seg__b--on':'');b.textContent=o;
@@ -37,8 +40,8 @@
     var t=document.createElement('div');t.className='tarjeta';
     var cab=document.createElement('div');cab.className='item__cabecera';
     var h=document.createElement('h3');h.className='tarjeta__titulo';h.style.margin='0';h.textContent=item.nombre;
-    var val=document.createElement('span');val.className='item__valor item__valor--'+(d.semaforo==='gris'?'gris':d.semaforo);
-    val.textContent=({verde:'VERDE',amarillo:'AMARILLO',rojo:'ROJO',gris:'SIN MEDIR'})[d.semaforo];
+    var val=document.createElement('span');val.className='item__valor item__valor--'+claseColor(d.semaforo);
+    val.textContent=rotulo(d.semaforo);
     cab.appendChild(h);cab.appendChild(val);t.appendChild(cab);
     var por=document.createElement('p');por.className='item__ayuda';por.textContent=d.porQue;t.appendChild(por);
     if(d.ppm.estado==='medido'){
@@ -65,7 +68,7 @@
     return t;
   }
   function aPdf(item,d){ calcular(d);
-    var l=['Estado: '+({verde:'VERDE',amarillo:'AMARILLO',rojo:'ROJO',gris:'SIN MEDIR'})[d.semaforo],
+    var l=['Estado: '+rotulo(d.semaforo),
       'PPM: '+((d.ppm.estado==='sin_medir'||d.ppm.valor==null)?'sin medir':d.ppm.valor),
       'Filtro: '+d.filtro+'  ·  Ablandador: '+d.ablandador+'  ·  Ósmosis: '+d.osmosis,
       'Motivo del color: '+d.porQue];
