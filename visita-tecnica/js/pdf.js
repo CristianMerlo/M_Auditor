@@ -79,7 +79,7 @@ window.PDF=(function(){
         if((d.declarado||d.tocado)&&!d.na)revisados++; });
       var sc=v.scores[clave];
       dato('Puntaje del bloque',(sc==null?'sin datos':sc+'/100')+'  ('+({verde:'VERDE',amarillo:'AMARILLO',rojo:'ROJO',gris:'—'})[window.Scoring.color(sc)]+')');
-      dato('Revisados sin observaciones',revisados+' de '+total); y+=1;
+      parrafo('Revisados sin observaciones: '+revisados+' de '+total,9); y+=1;
       items.forEach(function(it){ var d=v.items[it.id]||window.Controles.inicial(it);
         var c=window.Controles.obtener(it.tipo); var r=c.aPdf?c.aPdf(it,d):{lineas:[]};
         espacio(10);
